@@ -32,18 +32,14 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Přidat listener pro změny velikosti obrazovky
     const mediaQuery = window.matchMedia("(max-width: 500px)");
 
-    //Nastavení initial hodnoty pro lokální proměnnou "isMobile".
     setIsMobile(mediaQuery.matches);
 
-    //Definuje funkci zpětného volání pro zpracování změn v dotazu na média
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
 
-    //Přidání funkce zpětného volání jako listener pro změny v dotazu na média
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     return () => {
@@ -56,7 +52,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameLoop="demand"
+      frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}

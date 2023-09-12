@@ -1,7 +1,36 @@
 import React from "react";
+import {
+  VerticalTimeLine,
+  VerticalTimeLineElement,
+} from "react-vertical-timeline-component";
+import { motion } from "framer-motion";
+import "react-vertical-timeline-component/style.min.css";
+import { styles } from "../styles";
+import { experiences } from "../constants";
+import { SectionWrapper } from "../hoc";
+import { textVariant } from "../utils/motion";
 
 const Experience = () => {
-  return <div>Experience</div>;
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>
+          Projekty na kterých jsem pracoval
+        </p>
+        <h2 className={styles.sectionHeadText}>
+          Pracovní zkušenosti
+        </h2>
+      </motion.div>
+
+      <div className="mt-20 flex flex-col">
+        <VerticalTimeLine>
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
+        </VerticalTimeLine>
+      </div>
+    </>
+  );
 };
 
-export default Experience;
+export default SectionWrapper(Experience, "work");

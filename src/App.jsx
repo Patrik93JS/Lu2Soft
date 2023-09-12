@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { Hero, Navbar } from "./components";
+import { About, Experience, Hero, Navbar } from "./components";
 
 const App = () => {
   return (
@@ -8,6 +8,8 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Hero />
+          <About />
+          <Experience />
         </div>
       </div>
     </BrowserRouter>
