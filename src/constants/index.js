@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ABB Robot-sváření",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "ABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-svářeníABB Robot-sváření.",
     tags: [
       {
         name: "react",
@@ -219,9 +219,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Kuka",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Kuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robotKuka robot.",
     tags: [
       {
         name: "react",
@@ -240,9 +240,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Omron Robot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Omron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron RobotOmron Robot.",
     tags: [
       {
         name: "nextjs",
