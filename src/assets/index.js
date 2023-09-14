@@ -8,21 +8,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -32,9 +18,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import abbName from "./tech/abbName.png";
+import abb from "./tech/abb.png";
+import omronName from "./tech/omronName.png";
+import omron from "./tech/omron.png";
+import staubliName from "./tech/staubliName.png";
+import staubli from "./tech/staubli.png";
+import kukaName from "./tech/kukaName.png";
+import kuka from "./tech/kuka.png";
+
 export {
   logo,
   logoLu2,
+  threejs,
   logoWhite,
   backend,
   creator,
@@ -43,19 +39,6 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
   meta,
   shopify,
   starbucks,
@@ -63,4 +46,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  abbName,
+  abb,
+  omronName,
+  omron,
+  staubliName,
+  staubli,
+  kukaName,
+  kuka,
 };

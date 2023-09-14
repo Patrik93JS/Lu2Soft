@@ -3,18 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   meta,
   starbucks,
   tesla,
@@ -23,6 +11,14 @@ import {
   jobit,
   tripguide,
   threejs,
+  abbName,
+  abb,
+  omronName,
+  omron,
+  staubliName,
+  staubli,
+  kukaName,
+  kuka,
 } from "../assets";
 
 export const navLinks = [
@@ -61,56 +57,36 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "abbName",
+    icon: abbName,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "abb",
+    icon: abb,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "omronName",
+    icon: omronName,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "omron",
+    icon: omron,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "staubliName",
+    icon: staubliName,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "staubli",
+    icon: staubli,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "kukaName",
+    icon: kukaName,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "kuka",
+    icon: kuka,
   },
 ];
 
