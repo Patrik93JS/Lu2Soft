@@ -10,6 +10,7 @@ import {
   Tech,
   Works,
 } from "./components";
+import BusinessCard from "./components/BusinessCard";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Works />
           <Feedbacks />
           <div className="relative z-0">
+            <BusinessCard />
             <Contact />
             <StarsCanvas />
           </div>

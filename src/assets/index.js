@@ -18,6 +18,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import heroFace from "./heroFace.jpeg";
+
 import abbName from "./tech/abbName.png";
 import abb from "./tech/abb.png";
 import omronName from "./tech/omronName.png";
@@ -54,4 +56,5 @@ export {
   staubli,
   kukaName,
   kuka,
+  heroFace,
 };

@@ -238,10 +238,23 @@ const projects = [
   },
 ];
 
+const bussines = ["Telefon", "Email", "LinkedIn"];
+const bussinesInfo = [
+  "775 665 990",
+  "petrludvik16@gmail.com",
+  "linkedin/id{54353453}",
+];
+
+const linkedInURL =
+  "https://www.linkedin.com/in/petr-ludvik-a662a91a7/";
+
 export {
   services,
   technologies,
   experiences,
   testimonials,
   projects,
+  bussines,
+  bussinesInfo,
+  linkedInURL,
 };

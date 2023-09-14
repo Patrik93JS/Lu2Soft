@@ -22,8 +22,8 @@ const Robot = ({ isMobile }) => {
       <primitive
         object={robot.scene}
         scale={isMobile ? 0.7 : 1.3}
-        position={isMobile ? [0, -3, -2.2] : [-10, -100.25, -10]}
-        rotation={[0, -0.2, 0]}
+        position={isMobile ? [0, -70, 0] : [-10, -100.25, -10]}
+        rotation={[0, 2.4, 0]}
       />
     </mesh>
   );
@@ -55,7 +55,10 @@ const RobotCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [500, 500, 500], fov: 25 }}
+      camera={{
+        position: isMobile ? [300, 300, 300] : [500, 500, 500],
+        fov: 25,
+      }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
