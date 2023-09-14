@@ -15,7 +15,7 @@ const Contact = () => {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-
+  //TODO musime poresit email template
   const handleChange = (e) => {};
 
   const handleSubmit = (e) => {};
